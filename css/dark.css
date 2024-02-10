@@ -1,0 +1,28 @@
+*{
+    color: white !important;
+}
+
+body {
+    background-color: #1D1E42;
+}
+
+.header-left {
+    background: none;
+}
+
+tr:nth-child(even) {
+    background: #26264F;
+  }
+
+  .ten {
+    background: #141432;
+  }
+
+  input {
+    background-color: #26264F;
+    border: 1px solid white;
+  }
+
+  .delivered {
+    color: #1f9254 !important;
+  }

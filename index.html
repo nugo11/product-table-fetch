@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <h1>Show</h1>
+        <div class="ten">
+          10 <img src="./icons/up-arrow-icon.png" alt="Arrow icon" />
+        </div>
+        <h2>entries</h2>
+        <input type="search" placeholder="Search..." />
+      </div>
+
+      <button id="dark">Dark mode</button>
+      <button id="light" style="display: none">Light mode</button>
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <th style="text-align: center">Tracking ID</th>
+          <th><div class="heads">Title</div></th>
+          <th>
+            <div class="heads">
+              <img
+                src="./icons/sort-arrows-icon.png"
+                alt="Up And Down Arrows"
+              />Category
+            </div>
+          </th>
+          <th>
+            <div class="heads">
+              <img
+                src="./icons/sort-arrows-icon.png"
+                alt="Up And Down Arrows"
+              />Price
+            </div>
+          </th>
+          <th>Rate</th>
+          <th>Count</th>
+          <th>
+            <div class="heads">
+              <img
+                src="./icons/sort-arrows-icon.png"
+                alt="Up And Down Arrows"
+              />Status
+            </div>
+          </th>
+          <th style="text-align: center">Action</th>
+        </tr>
+      </table>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
